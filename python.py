@@ -7,6 +7,7 @@
 #pregunta 2 - es una estructura que define el las propiedades de los objetos que se crean a partir de ella
 #la clase se basa de variables y metodos
 
-#pregunta 3 - un objeto es una recollecion de datos que contiene atributos y metodos por ejemplo la clase perro tiene atributos como nombre,especie.
+#pregunta 3 - un objeto es una collecion de datos que contiene atributos y metodos por ejemplo la clase perro tiene atributos como nombre,especie.
+#como metodo seria ladrar , correr .
 print("hola xavier3")
 #Xavier Soliz
