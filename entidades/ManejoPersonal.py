@@ -22,7 +22,7 @@ class ManejoPersonal:
     def mostrar_datos(self):
         i,a,o,s = self.odtener_numeros()
         n_personal = len(self.__personal)
-        print(f"el porcentage de ingenieros {self.sacar_procentajes(n_personal, i) }")
-        print(f"el porcentage de Abogado {self.sacar_procentajes(n_personal, a) }")
-        print(f"el porcentage de Otros profesionales {self.sacar_procentajes(n_personal, o)}")
-        print(f"el promedio de sueldos es {s / n_personal}")
+        print(f"el porcentage de ingenieros {self.sacar_procentajes(n_personal, i) }%")
+        print(f"el porcentage de Abogado {self.sacar_procentajes(n_personal, a) }%")
+        print(f"el porcentage de Otros profesionales {self.sacar_procentajes(n_personal, o)}%")
+        print(f"el promedio de sueldos es {s / n_personal}CLP")
