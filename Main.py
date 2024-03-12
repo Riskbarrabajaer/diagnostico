@@ -15,7 +15,7 @@ def solicitar_datos():
     nombre = input("Ingrese su nombre: ").title()
     while True:
         try:
-            edad = int(input("Ingrese su edad (número entero mayor a 0): "))
+            edad = int(input("Ingrese su sueldo (número entero mayor a 0): "))
             if edad <= 0:
                 print("La edad debe ser un número entero mayor a 0.")
                 continue
@@ -38,9 +38,9 @@ def solicitar_datos():
             break
     while True:
         try:
-            sueldo = int(input("Ingrese su edad (número entero mayor a 0): "))
+            sueldo = int(input("Ingrese su sueldo (número entero mayor a 0): "))
             if edad <= 0:
-                print("La edad debe ser un número entero mayor a 0.")
+                print("el sueldo debe ser un número entero mayor a 0.")
                 continue
             break
         except ValueError:
